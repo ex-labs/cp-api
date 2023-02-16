@@ -21,6 +21,14 @@ The api appears to work by directly access php files in a particular directory.
 	/v2
 	/mapper
 
+## Excluded Directories
+
+	/data
+	/data-tv
+	/video
+	/DB_Restore
+	/pops_bodyparts
+	/video
 
 ## Fixes/Updates
 
