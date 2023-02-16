@@ -1,0 +1,5 @@
+AuthName "PopcornTrivia" 
+AuthType Basic
+AuthUserFile /mnt/stor7-wc1-dfw1/api.customplay.com/web/content/mapper/.htpasswdfile 
+AuthGroupFile /dev/null 
+require valid-user

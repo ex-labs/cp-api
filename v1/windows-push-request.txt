@@ -1,0 +1,34 @@
+* Hostname was NOT found in DNS cache
+*   Trying 131.253.34.231...
+* Connected to bn2.notify.windows.com (131.253.34.231) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-SHA384
+* Server certificate:
+* 	 subject: CN=*.notify.windows.com
+* 	 start date: 2016-04-06 20:53:12 GMT
+* 	 expire date: 2018-04-06 20:53:12 GMT
+* 	 issuer: C=US; ST=Washington; L=Redmond; O=Microsoft Corporation; OU=Microsoft IT; CN=Microsoft IT SSL SHA2
+* 	 SSL certificate verify ok.
+> POST /?token=AwYAAABTncnN%2b6ChyR%2flT%2bp%2fp7W41qKZqU8RqYL2TprClAy4Nsv51R8TUtOLIxNNi6%2f6hjBB6zMMRGDNWruen1W9p6gbXOn2wVMxQmSSGCDM5GpSoarjZ1OROE2%2bfJmylg33iKw%3d HTTP/1.1
+Host: bn2.notify.windows.com
+Accept: */*
+Content-Type: text/xml
+Content-Length: 123
+X-WNS-Type: wns/toast
+Authorization: Bearer EgCbAQMAAAAEgAAADAAB/iO2UdDtzVMbdT0GHcuyZiGFp5agjLHwjhy9y61hMBVqq3phEQ39zSVtXPrDgDxBl2UO16dyF+C2WNvPm1uNO/1tRdKgC9jLxoKVWQKqlxC0H9IwGQXdlm/rWyJOQgoodAwl09YVY9XbFoDVtDMBfhfRleCxdRAlamysCeDo+UGrZ+uzGBfda4BBSf4fFgqGZGi4AI2AdZrGTcl+TE/XRB1Ep8I4OoSXXal6hYvjrWCQDuhcQEjgkqhtaMWCAr2R1rRYAZ44Zd+yJYUxb9QlepemiocpBZ8rJvBB2xc3bV/uGxkzRPOObALRpRJzgeFqDNaT6Y6k0OHrl/Om0H2cC4oAWgCKAAAAAAAEyRlAXdLJV13SyVfrSAQADwAxODQuMTA2LjEwLjEyOAAAAAAAWwBtcy1hcHA6Ly9zLTEtMTUtMi05ODE4MDcwODMtMzA4NDg1MzQtMTk3MjQ0MDYwNS00MTU1MzMxMTA2LTk4NTg0ODIyMS0yNzgyNzU0NDU4LTI2MjM2MjkyMDUA
+X-WNS-RequestForStatus: true
+
+* upload completely sent off: 123 out of 123 bytes
+< HTTP/1.1 200 OK
+< Content-Length: 0
+< X-WNS-DEVICECONNECTIONSTATUS: connected
+< X-WNS-NOTIFICATIONSTATUS: received
+< X-WNS-STATUS: received
+< X-WNS-MSG-ID: 53BB42C64ED34DE5
+< X-WNS-DEBUG-TRACE: BN3SCH030010829
+< Strict-Transport-Security: max-age=31536000; includeSubDomains
+< Date: Fri, 02 Sep 2016 19:26:20 GMT
+< 
+* Connection #0 to host bn2.notify.windows.com left intact
